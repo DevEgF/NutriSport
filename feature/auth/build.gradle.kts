@@ -45,6 +45,8 @@ kotlin {
             implementation(libs.androidx.lifecycle.runtime.compose)
 
             implementation(libs.messagebar.kmp)
+
+            implementation(project(path = ":shared"))
         }
         commonTest.dependencies {
 
